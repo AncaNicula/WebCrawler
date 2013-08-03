@@ -6,4 +6,10 @@
   <packaging>pom</packaging>
   <name>Web Crawler</name>
   <description>Distributed web crawler using JMS and Spring</description>
+  <modules>
+  	<module>webcrawler-model</module>
+  	<module>webcrawler-worker</module>
+  	<module>webcrawler-services</module>
+  	<module>webcrawler-rest</module>
+  </modules>
 </project>
